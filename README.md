@@ -1,4 +1,4 @@
-This repo wraps https://github.com/KhronosGroup/VK-GL-CTS/ to allow it to work with Android Studio. This allows for step through debuggin through the Android Studio UI.
+This repo wraps https://github.com/KhronosGroup/VK-GL-CTS/ to allow it to work with Android Studio. This allows for step through debugging through the Android Studio UI.
 
 To set up this project first clone the VK-GL-CTS repo into the app/src/main/cpp/ folder and fetch the remote sources:
 ```git clone https://github.com/KhronosGroup/VK-GL-CTS/ app/src/main/cpp/VK-GL-CTS/ && cd app/src/main/cpp/VK-GL-CTS/ && python3 ./external/fetch_sources.py```
