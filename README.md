@@ -8,3 +8,7 @@ Then update the "ANDROID_NDK_PATH" variable in /app/build.gradle.kts
 
 Then open the project in Android Studio and run/debug it. :)
 
+To run a specific test use these launch flags:
+```
+-e "cmdLine"  "deqp --deqp-case=\"dEQP-VK.wsi.android.swapchain.private_data*\" --deqp-log-images=disable --deqp-log-shader-sources=disable --deqp-log-filename=/data/user/0/com.example.deqptest/files/TestResults.qpa"
+```
